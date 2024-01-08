@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2f0541;
+}
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    color: #6c8ebc;
+    font-size: 20px;
+}
+header img{
+    height: 50%;
+    width: 50%;
+    display: block;
+}
+section{
+    padding-left: 45%;
+}
+.nav{
+    padding: 20px 20px;
+}
+.container{
+   display: block;
+}
+.container menu{
+    
+}
+.menu{
+    padding: 20px 20px;
+    padding-left: 10px 10px;
+    background-color: #967270;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu a:hover{
+    text-decoration: 
+}
