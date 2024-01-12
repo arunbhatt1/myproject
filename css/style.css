@@ -46,8 +46,9 @@ section{
 .menu a:hover{
     text-decoration: underline;
 }
-.feature{
+#feature{
     position: relative;
+    padding: 30px 0;
 }
 .boxes{
     padding-top: 30px;
@@ -56,7 +57,6 @@ section{
 .box{
     width: 30%;
     position: relative;
-    display: block;
 }
 .box img{
     width: 100%;
@@ -90,47 +90,10 @@ section{
 .box img:hover{
     transform: scale(150%);
 }
-.seconds{
-    position: relative;
-}
-.second{
-    padding-top: 30px;
-    display: flex;
-}
-.secondrow{
-    width: 30%;
-    position: relative;
-    display: block;
-}
-.secondrow img{
-    width: 100%;
-    display: flex;
-    border-image-width:20px;
-    height: 100%;
-    padding:25px;
-}
-.secondrow h4{
-    position: absolute;
-    text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    bottom: 0;
-    left: 0;
-    background-color: black;
-    width: 100%;
-    padding: 5px 5px;
-    padding-bottom: 0px;
-    opacity: 0.8;
-}
-.secondrow h4 a{
-    text-align: left;
-    color: #927341;
-    text-decoration: none;
+h3{
     font-size: 24px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.secondrow h4 a:hover{
-    text-decoration: underline;
-}
-.secondrow img:hover{
-    transform: scale(150%);
+h6{
+    font-size: 24px;
+    color: slateblue;
 }
